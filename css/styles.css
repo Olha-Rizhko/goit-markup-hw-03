@@ -87,6 +87,7 @@ img {
   color: #4d5ae5;
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 
 .page-header-navigation-logo-dark-blue {
@@ -98,7 +99,6 @@ img {
   text-align: left;
   color: #2e2f42;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .page-header-navigation-list {
