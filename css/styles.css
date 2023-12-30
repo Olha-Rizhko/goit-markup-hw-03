@@ -73,6 +73,7 @@ img {
 .page-header-navigation {
   display: flex;
   flex-grow: 1;
+  align-items: center;
 }
 
 .page-header-navigation-logo {
@@ -97,11 +98,11 @@ img {
   text-align: left;
   color: #2e2f42;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .page-header-navigation-list {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -115,6 +116,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .page-header-navigation-link:hover,
@@ -184,6 +186,7 @@ img {
   padding: 16px 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -262,7 +265,11 @@ img {
 }
 
 .team-img {
-  margin-bottom: 32px;
+}
+
+.team-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-item-subtitle {
@@ -281,7 +288,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 /*TODO----------------------------------*/
@@ -344,7 +350,7 @@ img {
 /*TODO---------------FOOTER-------------------*/
 .page-footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -357,7 +363,8 @@ img {
   text-align: left;
   color: #4d5ae5;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .page-footer-logo-white {
